@@ -1,4 +1,4 @@
-export default function BubbleSort(inputAr: number[]) {
+export default function BubbleSort(inputAr: number[]): number[] {
     let ar: number[] = [...inputAr];
     let N: number = ar.length;
     let sorted: boolean;
