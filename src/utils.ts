@@ -6,7 +6,7 @@ export const sortAsc = (a: number, b: number) => {
     return 0;
 }
 
-export const multipleRandomSortingTest = (NUM_TESTS: number = 100, name: string, AlgorithmFn: any) => {
+export const multipleRandomSortingTest = (name: string, AlgorithmFn: any, NUM_TESTS: number = 50) => {
     return () => {
         it(`${name} with ${NUM_TESTS} samples`, function() {
             for(let i: number = 1; i < NUM_TESTS; i++){
